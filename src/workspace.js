@@ -181,7 +181,7 @@ export default class Workspace extends St.Bin {
       app_icon.add_effect(new Clutter.DesaturateEffect())
     }
 
-    const css_inline_app = `border-color: ${this._settings.indicator_color}`
+    const css_inline_app = ``
 
     const css_classes_app = [ "wboa-app" ]
     if (this._settings.indicator_swap_position) {
