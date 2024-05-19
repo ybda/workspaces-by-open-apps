@@ -215,7 +215,7 @@ export default class WorkspacesByOpenApps extends Extension {
     // hide empty workspaces
     if (this._settings.indicator_hide_empty && !is_active && windows.length === 0) return
 
-    const css_inline_workspace = `border-color: ${this._settings.indicator_color}`
+    const css_inline_workspace = ``
 
     const css_classes_workspace = [ "wboa-workspace" ]
     if (this._settings.indicator_swap_position) {

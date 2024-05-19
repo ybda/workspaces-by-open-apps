@@ -107,7 +107,8 @@
   margin-bottom: 2px;
 }
 .wboa-bottom.wboa-active {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid;
+  border-color: #99c1f1;
   /* disable simulation of presence of active indicator */
   margin-bottom: 0px;
 }
