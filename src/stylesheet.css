@@ -47,8 +47,8 @@
 .wboa-workspace > .wboa-label {
   color: rgba(255, 255, 255, 0.5);
   /* space horizontally from icons */
-  margin-right: 2px;
-  margin-left: 2px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
 .wboa-workspace.wboa-top > .wboa-label {
   /* fix vertical offset when workspace indicator position is bottom */
